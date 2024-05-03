@@ -31,7 +31,7 @@ export default function Routes() {
           name="main"
           component={Main}
           options={{
-            title: 'GitHub VIEWER',
+            title: 'Geolocalização',
             headerTitleAlign: 'center',
             headerLeft: null,
             headerStyle: {
@@ -47,7 +47,7 @@ export default function Routes() {
           name="cadastro"
           component={Cadastro}
           options={{
-            title: 'Geolocalização',
+            title: 'Cadastrar',
             headerTitleAlign: 'center',
             headerTintColor: '#fff',
             headerStyle: {
