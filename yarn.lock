@@ -1999,6 +1999,11 @@
   dependencies:
     "@babel/types" "^7.20.7"
 
+"@types/geojson@^7946.0.13":
+  "integrity" "sha512-WCfD5Ht3ZesJUsONdhvm84dmzWOiOzOAqOncN0++w0lBw1o8OuDNJF2McvvCef/yBqb/HYRahp1BYtODFQ8bRg=="
+  "resolved" "https://registry.npmjs.org/@types/geojson/-/geojson-7946.0.14.tgz"
+  "version" "7946.0.14"
+
 "@types/graceful-fs@^4.1.3":
   "integrity" "sha512-olP3sd1qOEe5dXTSaFvQG+02VdRXcdytWLAZsAq1PecU8uqQAhkrnbli7DagjtXKW/Bl7YJbUsa8MPcuc8LHEQ=="
   "resolved" "https://registry.npmjs.org/@types/graceful-fs/-/graceful-fs-4.1.9.tgz"
@@ -5793,6 +5798,13 @@
     "lodash" "^4.17.21"
     "prop-types" "^15.7.2"
 
+"react-native-maps@^1.15.1":
+  "integrity" "sha512-xdU1Qoe9pvyYx/EQwkpBuubHenSUknODjvKPNlzYJF57CPhjieMIomZL/vCupxTHKqsat2wTCt7O6AdByea5wA=="
+  "resolved" "https://registry.npmjs.org/react-native-maps/-/react-native-maps-1.15.1.tgz"
+  "version" "1.15.1"
+  dependencies:
+    "@types/geojson" "^7946.0.13"
+
 "react-native-safe-area-context@^4.9.0", "react-native-safe-area-context@>= 3.0.0":
   "integrity" "sha512-/OJD9Pb8IURyvn+1tWTszWPJqsbZ4hyHBU9P0xhOmk7h5owSuqL0zkfagU0pg7Vh0G2NKQkaPpUKUMMCUMDh/w=="
   "resolved" "https://registry.npmjs.org/react-native-safe-area-context/-/react-native-safe-area-context-4.9.0.tgz"
@@ -5814,7 +5826,7 @@
     "prop-types" "^15.7.2"
     "yargs" "^16.1.1"
 
-"react-native@*", "react-native@^0.0.0-0 || >=0.60 <1.0", "react-native@0.73.5":
+"react-native@*", "react-native@^0.0.0-0 || >=0.60 <1.0", "react-native@>= 0.64.3", "react-native@0.73.5":
   "integrity" "sha512-iHgDArmF4CrhL0qTj+Rn+CBN5pZWUL9lUGl8ub+V9Hwu/vnzQQh8rTMVSwVd2sV6N76KjpE5a4TfIAHkpIHhKg=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.73.5.tgz"
   "version" "0.73.5"
@@ -5880,7 +5892,7 @@
     "react-shallow-renderer" "^16.15.0"
     "scheduler" "^0.23.0"
 
-"react@*", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16.8.0", "react@>=16.8", "react@>=17.0.0", "react@18.2.0":
+"react@*", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16.8.0", "react@>= 17.0.1", "react@>=16.8", "react@>=17.0.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
