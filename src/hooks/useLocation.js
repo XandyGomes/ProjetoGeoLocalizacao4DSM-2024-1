@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import {requestMultiple, PERMISSIONS} from 'react-native-permissions';
+import { requestMultiple, PERMISSIONS } from 'react-native-permissions';
 import Geolocation from 'react-native-geolocation-service';
 import {Platform} from 'react-native';
 
@@ -31,6 +31,7 @@ export default () => {
           setErrorMsg('Usuário não aceitou solicitação do GPS');
         }
       });
+
       if (result) {
         await Geolocation.getCurrentPosition(
           ({coords}) => {
