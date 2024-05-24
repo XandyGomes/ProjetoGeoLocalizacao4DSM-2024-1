@@ -23,7 +23,7 @@ const Login = () => {
     }
     const userJson = JSON.parse(user);
     if (userJson.email === email && userJson.password === password) {
-      navigation.navigate('main');
+      navigation.navigate('grafico');
     } else {
       alert('E-mail ou senha inválidos');
     }
